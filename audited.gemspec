@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'notifiably_audited'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
 
   gem.authors     = ['Brandon Keepers', 'Kenneth Kalmer', 'Daniel Morrison', 'Brian Ryckbost', 'Steve Richert', 'Ryan Glover']
   gem.email       = 'info@collectiveidea.com'
@@ -18,6 +18,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rails', '~> 3.0'
   gem.add_development_dependency 'rspec-rails', '~> 2.0'
   gem.add_development_dependency 'sqlite3', '~> 1.0'
+  gem.add_development_dependency 'private_pub'
 
   gem.files         = `git ls-files`.split($\).reject{|f| f =~ /(lib\/audited\-|adapters|generators)/ }
   gem.test_files    = gem.files.grep(/^spec\//)

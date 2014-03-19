@@ -13,6 +13,13 @@ class <%= migration_class_name %> < ActiveRecord::Migration
       t.column :version, :integer, :default => 0
       t.column :comment, :string
       t.column :remote_address, :string
+      # added by senthil 
+      #========
+      t.column :meta, :string
+      t.column :receiver_id, :integer
+      t.column :checked, :boolean
+      t.column :title, :string
+      #========
       t.column :created_at, :datetime
     end
 
