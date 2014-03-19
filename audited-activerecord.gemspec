@@ -1,8 +1,8 @@
 # encoding: utf-8
 
 Gem::Specification.new do |gem|
-  gem.name    = 'audited-activerecord'
-  gem.version = '3.0.0'
+  gem.name    = 'notifiably_audited'
+  gem.version = '0.0.6'
 
   gem.authors     = ['Brandon Keepers', 'Kenneth Kalmer', 'Daniel Morrison', 'Brian Ryckbost', 'Steve Richert', 'Ryan Glover']
   gem.email       = 'info@collectiveidea.com'
