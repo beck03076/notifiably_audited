@@ -1,3 +1,5 @@
+require 'private_pub' 
+
 module Audited
   VERSION = '3.0.0'
 

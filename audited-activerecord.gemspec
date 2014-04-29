@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'notifiably_audited-activerecord'
-  gem.version = '0.0.6'
+  gem.version = '0.0.7'
 
   gem.authors     = ['senthil kumar']
   gem.email       = 'senthilkumar.hce@gmail.com'
