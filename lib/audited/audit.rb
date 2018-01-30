@@ -12,8 +12,9 @@ module Audited
         belongs_to :associated, :polymorphic => true
 
         before_create :set_version_number, :set_audit_user
-        
-        after_save :notify
+
+        # senthil 30jan2018: Commenting out because no notifications as of now
+        # after_save :notify
 
         cattr_accessor :audited_class_names
         self.audited_class_names = Set.new
